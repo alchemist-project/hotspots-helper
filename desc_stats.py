@@ -3,7 +3,6 @@
 
 class DescriptiveStats(object):
     def __init__(self, name, all_values):
-        print all_values
         self.name = name
         self._all_values = all_values
         self.total = sum(all_values)

@@ -30,7 +30,7 @@ def contains_code(line):
 	return not empty_line_expr.match(line)
 		
 def complexity_of(line):
-	return n_log_tabs(line) + (n_log_spaces(line) / 4) # hardcoded indentation
+	return n_log_tabs(line) + (n_log_spaces(line) / 2) # hardcoded indentation
 	
 ######################################################################
 ## Statistics from complexity
